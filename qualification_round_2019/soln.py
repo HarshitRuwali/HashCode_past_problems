@@ -17,12 +17,6 @@ with open(str(argv[1])+'.txt', 'r') as f_in:
         i += 1
 f_in.close()
 
-#print(all)
-#print(vert)
-
-
-#vert = []
-
 
 while len(vert) > 1:
     max_tags, id = 0, 0
@@ -74,7 +68,7 @@ for i in range(1,len(all)-1): #len(all)-2 times
 write_out(1)
 
 f_out.close()
-
+'''
 def process(fileName):
 
     print("######")
@@ -125,3 +119,5 @@ fileNames = ["a_example", "b_lovely_landscapes", "c_memorable_moments",
 
 for fileName in fileNames:  
     process(fileName)
+
+'''
